@@ -3,6 +3,7 @@ header {
   justify-content: center;
   display: flex;
 }
+
 #Sekcjaoautorze,
 #Sekcjazgaleriązdjęć {
   background-color: #cac4c4;
@@ -41,9 +42,9 @@ h1 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-img {
-  width: 300px;
-  height: 200px;
+#mammonzdj {
+  width: 450px;
+  height: 250px;
 }
 footer {
   background-color: #cfb7b7;
@@ -89,6 +90,22 @@ article {
 }
 #Slajd2,
 #Slajd3,
-#Slajd4 {
+#Slajd4,
+#Slajd5 {
   display: none;
+}
+#Sekcjazbanerem {
+  height: 500px;
+  color: white;
+  outline: black;
+}
+#Sekcjazbanerem > img {
+  height: 50%;
+}
+article > ul {
+  margin: 40px;
+}
+i {
+  color: black;
+  font-size: 22px;
 }
