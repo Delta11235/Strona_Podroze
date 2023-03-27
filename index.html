@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <header>
@@ -90,14 +91,14 @@
     <section id="Sekcjazgaleriązdjęć">
       <h1>Sekcja z galerią zdjęć</h1>
       <article>
+        <button onclick="ZmianaSlajdu()"><</button>
         <ul>
-          <img src="zdjęcia/podroz1.jpg" alt="1" />
-          <img src="zdjęcia/podroz2.jpg" alt="2" />
+          <img src="zdjęcia/podroz1.jpg" alt="1" id="Slajd1" />
+          <img src="zdjęcia/podroz2.jpg" alt="2" id="Slajd2" />
+          <img src="zdjęcia/podroz3.jpg" alt="3" id="Slajd3" />
+          <img src="zdjęcia/podroz4.jpg" alt="4" id="Slajd4" />
         </ul>
-        <ul>
-          <img src="zdjęcia/podroz3.jpg" alt="3" />
-          <img src="zdjęcia/podroz4.jpg" alt="4" />
-        </ul>
+        <button onclick="ZmianaSlajdu()">></button>
       </article>
     </section>
     <section id="Sekcjazformularzemkontaktowym">

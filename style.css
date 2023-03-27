@@ -87,6 +87,8 @@ article {
   height: 50px;
   left: 0px;
 }
-ul > img {
-  border: black solid;
+#Slajd2,
+#Slajd3,
+#Slajd4 {
+  display: none;
 }
