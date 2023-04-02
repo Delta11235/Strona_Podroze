@@ -42,3 +42,15 @@ function ZmianaSlajdu() {
     Slajd5.style.display = "block";
   }
 }
+function ZmianaSlajduWLewo() {
+  if (liczba == 1) {
+    liczba = 4;
+
+    ZmianaSlajdu();
+  } else {
+    liczba--;
+    liczba--;
+
+    ZmianaSlajdu();
+  }
+}

@@ -63,11 +63,23 @@ form {
 }
 form > input {
   width: 100px;
+  outline: none;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  background-color: #a9a3a3;
 }
+::placeholder,
+:-ms-input-placeholder,
+::-ms-input-placeholder {
+  color: black;
+}
+
 form > button {
   width: 100px;
 }
 div {
+  margin: auto;
   justify-content: center;
   width: 90%;
   height: 100px;
@@ -96,8 +108,6 @@ article {
 }
 #Sekcjazbanerem {
   height: 500px;
-  color: white;
-  outline: black;
 }
 #Sekcjazbanerem > img {
   height: 50%;
